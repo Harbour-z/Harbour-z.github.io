@@ -24,17 +24,20 @@ I am improving my programming and development skills.
 
 My research interest includes Neural Language Processing and MLLM.
 
+I am also an enthusiastic self-learner and interested in various fields of computer science. I have built [a website](https://zhidongzhang.top/Course_learning/) to keep my notes when learning.
 
 # 🔥 News
 Hope there will be something soon.
-<!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+
+<!-- - 
+*2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  
+- -->
 
 # 📝 Publications 
 Hope there will be something later.
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - 2024.5, Finalist Awards(Top 1%) in COMAP’s Mathematical Contest in Mathematical Contest in Modeling (MCM) 2024.
 - 2024.4, Second Prize in the 15th Blue Bridge Cup Algorithm Competition at the provincial level.
 
