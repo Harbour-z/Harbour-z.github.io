@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Zhidong Zhang"
+description              : "Xi'an Jiaotong University"
+repository               : "Harbour-z/Harbour-z.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhidong Zhang（张智栋）"
   avatar           : "images/profile.png"
-  bio              : "Xi'an Jiaotong University, Second-year undergraudated student major in Software Engineering."
+  bio              : "Undergraduate student major in Software Engineering."
   location         : "Xi'an, China"
   employer         :
   pubmed           : 
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "Harbour-z" # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
