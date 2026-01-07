@@ -19,11 +19,11 @@ redirect_from:
 
 # Welcome!
 
-I am now a sophomore student at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), [School of Software Engineering](https://se.xjtu.edu.cn/).
+I am now a third year student at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), [School of Software Engineering](https://se.xjtu.edu.cn/), majoring in Software Engineering.
 
 I am improving my programming and development skills.
 
-**Research Interests:** <span class="research-tag">Natural Language Processing</span> <span class="research-tag">MLLM</span> <span class="research-tag">Computer Vision</span>
+**Research Interests:** <span class="research-tag">Natural Language Processing</span> <span class="research-tag">AI Safety</span> <span class="research-tag">Backend Dev Tech</span>I
 
 I am also an enthusiastic self-learner and interested in various fields of computer science. I have built [a website](https://zhidongzhang.top/Course_learning/) to keep my notes when learning.
 
