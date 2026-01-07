@@ -1,0 +1,18 @@
+current directory: /Users/harbour/Desktop/Projects-try/Harbour-z.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/harbour/Desktop/Projects-try/Harbour-z.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260108-74777-4v465u sitelibdir\=./.gem.20260108-74777-4v465u clean
+
+current directory: /Users/harbour/Desktop/Projects-try/Harbour-z.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260108-74777-4v465u sitelibdir\=./.gem.20260108-74777-4v465u
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/harbour/Desktop/Projects-try/Harbour-z.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260108-74777-4v465u sitelibdir\=./.gem.20260108-74777-4v465u install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260108-74777-4v465u/racc
+
+current directory: /Users/harbour/Desktop/Projects-try/Harbour-z.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260108-74777-4v465u sitelibdir\=./.gem.20260108-74777-4v465u clean
