@@ -8,7 +8,7 @@ on:
   # 当推送到 main 分支时触发
   push:
     branches: ["main"]
-  
+
   # 允许手动触发
   workflow_dispatch:
 
@@ -32,20 +32,26 @@ jobs:
       # 1. 检出代码
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       # 2. 配置 Ruby 环境
-      # 使用 github-pages gem 指定的 Ruby 版本
+      # 使用与 Gemfile.lock 兼容的 Ruby 版本
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # github-pages 兼容的 Ruby 版本
-          bundler-cache: true  # 自动运行 'bundle install' 并缓存
-      
+          ruby-version: "3.3" # 支持最新依赖的 Ruby 版本
+          bundler-cache: false # 先不缓存，避免版本冲突
+
+      # 2.5. 更新 Bundler 并安装依赖
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+
       # 3. 配置 GitHub Pages
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      
+
       # 4. 使用 Jekyll 构建站点
       # 注意：这里使用 github-pages gem 来构建，确保与 GitHub Pages 环境一致
       - name: Build with Jekyll
@@ -53,7 +59,7 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      
+
       # 5. 上传构建产物
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -66,10 +72,10 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     runs-on: ubuntu-latest
     needs: build
-    
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
