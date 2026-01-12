@@ -9,6 +9,8 @@
 title                    : "Zhidong Zhang"
 description              : "Xi'an Jiaotong University"
 repository               : "Harbour-z/Harbour-z.github.io"
+url                      : "https://zhidongzhang.top"  # 自定义域名
+baseurl                  : ""  # 子路径，使用自定义域名时为空
 google_scholar_stats_use_cdn : true
 
 # google analytics
