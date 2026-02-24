@@ -41,7 +41,7 @@ I am also an enthusiastic self-learner and interested in various fields of compu
 
 <div class="timeline">
 <div class="timeline-item">
-<div class="timeline-date">2025.12 - Present</div>
+<div class="timeline-date">2025.12 - 2026.3</div>
 <div class="timeline-title"><strong>AI Engineer Intern</strong> · Huawei, Xi'an</div>
 <div class="timeline-desc">2012 LAB - Riemann LAB</div>
 </div>

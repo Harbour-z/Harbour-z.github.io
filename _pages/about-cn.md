@@ -16,18 +16,17 @@ author_profile: true
 
 # 欢迎！
 
-我目前是[西安交通大学](http://www.xjtu.edu.cn/)[软件学院](https://se.xjtu.edu.cn/)的大二学生。
+我是[西安交通大学](http://www.xjtu.edu.cn/)[软件学院](https://se.xjtu.edu.cn/)软件工程专业的大三学生。
 
-我正在提升自己的编程和开发技能。
+正在不断提升自己的编程与开发能力。
 
-**研究兴趣：** <span class="research-tag">自然语言处理</span> <span class="research-tag">多模态大模型</span> <span class="research-tag">计算机视觉</span>
+**研究兴趣：** <span class="research-tag">自然语言处理</span> <span class="research-tag">AI 安全</span> <span class="research-tag">后端开发技术</span>
 
-我也是一个热情的自学者，对计算机科学的各个领域都很感兴趣。我建立了[一个网站](https://zhidongzhang.top/Course_learning/)来记录学习笔记。
 
-# 🔥 新闻
+# 🔥 动态
 
 <div class="highlight-box">
-📌 希望很快会有一些令人兴奋的事情！敬请期待...
+📌 敬请关注...
 </div>
 
 <!-- - 
@@ -35,21 +34,33 @@ author_profile: true
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  
 - -->
 
-# 📝 发表论文 
-期待未来会有一些成果。
+# 💻 实习经历
+
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-date">2025.12 - 至今</div>
+<div class="timeline-title"><strong>AI 工程师实习生</strong> · 华为（西安）</div>
+<div class="timeline-desc">2012 实验室 · 黎曼实验室</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">2024.07 - 2024.09</div>
+<div class="timeline-title"><strong>软件开发实习生</strong> · 华为（西安）</div>
+<div class="timeline-desc">消费者 BG · 运动健康与智慧出行软件部</div>
+</div>
+</div>
 
 # 🎖 荣誉奖项
 
 <div class="award-item">
 <span class="award-icon">🏆</span>
 <span class="award-date">2024.5</span>
-<span class="award-content"><strong>决赛奖（前1%）</strong> - 美国大学生数学建模竞赛（MCM）2024</span>
+<span class="award-content"><strong>决赛奖（前 1%）</strong> · 2024 年美国大学生数学建模竞赛（MCM）</span>
 </div>
 
 <div class="award-item">
 <span class="award-icon">🥈</span>
 <span class="award-date">2024.4</span>
-<span class="award-content"><strong>二等奖</strong> - 第15届蓝桥杯算法竞赛（省级）</span>
+<span class="award-content"><strong>二等奖</strong> · 第 15 届蓝桥杯算法竞赛（省级）</span>
 </div>
 
 # 📖 教育经历
@@ -58,26 +69,15 @@ author_profile: true
 <div class="timeline-item">
 <div class="timeline-date">2024.06 - 至今</div>
 <div class="timeline-title"><strong>软件学院</strong>，西安交通大学</div>
-<div class="timeline-desc">本科 · 转专业追求软件开发的热情</div>
+<div class="timeline-desc">本科 · 因热爱软件开发而转入该专业</div>
 </div>
 <div class="timeline-item">
 <div class="timeline-date">2022.09 - 2024.06</div>
 <div class="timeline-title"><strong>能源与动力工程学院</strong>，西安交通大学</div>
-<div class="timeline-desc">本科 · 大一和大二阶段</div>
+<div class="timeline-desc">本科 · 大一与大二阶段</div>
 </div>
 </div>
 
-# 💻 实习经历
+# 📝 论文发表 
 
-<div class="timeline">
-<div class="timeline-item">
-<div class="timeline-date">2025.12 - 至今</div>
-<div class="timeline-title"><strong>AI 工程师实习生</strong> · 华为，西安</div>
-<div class="timeline-desc">2012 实验室 - Riemann 实验室</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-date">2024.07 - 2024.09</div>
-<div class="timeline-title"><strong>软件工程实习生</strong> · 华为，西安</div>
-<div class="timeline-desc">消费者BG - 运动健康与智慧出行软件部</div>
-</div>
-</div>
+期待未来能有所产出。
