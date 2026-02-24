@@ -23,7 +23,7 @@ I am now a third year student at [Xi'an Jiaotong University](http://en.xjtu.edu.
 
 I am improving my programming and development skills.
 
-**Research Interests:** <span class="research-tag">Natural Language Processing</span> <span class="research-tag">AI Safety</span> <span class="research-tag">Backend Dev Tech</span>I
+**Research Interests:** <span class="research-tag">Natural Language Processing</span> <span class="research-tag">AI Safety</span> <span class="research-tag">Backend Dev Tech</span>
 
 I am also an enthusiastic self-learner and interested in various fields of computer science. I have built [a website](https://zhidongzhang.top/Course_learning/) to keep my notes when learning.
 
@@ -41,13 +41,10 @@ I am also an enthusiastic self-learner and interested in various fields of compu
 
 <div class="timeline">
 <div class="timeline-item">
-<div class="timeline-date">2025.12 - Now</div>
+<div class="timeline-date">2025.12 - Present</div>
 <div class="timeline-title"><strong>AI Engineer Intern</strong> · Huawei, Xi'an</div>
 <div class="timeline-desc">2012 LAB - Riemann LAB</div>
 </div>
-</div>
-
-<div class="timeline">
 <div class="timeline-item">
 <div class="timeline-date">2024.07 - 2024.09</div>
 <div class="timeline-title"><strong>Software Engineer Intern</strong> · Huawei, Xi'an</div>

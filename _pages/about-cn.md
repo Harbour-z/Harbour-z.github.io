@@ -71,6 +71,11 @@ author_profile: true
 
 <div class="timeline">
 <div class="timeline-item">
+<div class="timeline-date">2025.12 - 至今</div>
+<div class="timeline-title"><strong>AI 工程师实习生</strong> · 华为，西安</div>
+<div class="timeline-desc">2012 实验室 - Riemann 实验室</div>
+</div>
+<div class="timeline-item">
 <div class="timeline-date">2024.07 - 2024.09</div>
 <div class="timeline-title"><strong>软件工程实习生</strong> · 华为，西安</div>
 <div class="timeline-desc">消费者BG - 运动健康与智慧出行软件部</div>

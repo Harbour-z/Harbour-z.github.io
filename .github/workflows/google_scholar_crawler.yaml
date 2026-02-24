@@ -4,11 +4,11 @@ name: Get Citation Data
 # 1. 每天定时运行
 # 2. 可以手动触发
 # 3. 当 main 分支的 Jekyll workflow 完成时触发
-on: 
+on:
   schedule:
-    - cron: '0 8 * * *'  # 每天 UTC 8:00 (北京时间 16:00)
-  workflow_dispatch:      # 允许手动触发
-  workflow_run:           # 当指定 workflow 完成后触发
+    - cron: "0 8 * * *" # 每天 UTC 8:00 (北京时间 16:00)
+  workflow_dispatch: # 允许手动触发
+  workflow_run: # 当指定 workflow 完成后触发
     workflows: ["Build and Deploy Jekyll Site"]
     types: [completed]
 
@@ -16,21 +16,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - uses: actions/checkout@v2
+      - name: Install Reqs
+        run: |
+          sudo apt-get install python3-setuptools
+      - name: Run
+        run: |
+          cd ./google_scholar_crawler
+          pip3 install -r requirements.txt
+          python3 main.py
+          cd ./results
+          git init
+          git config --local user.name "${GITHUB_ACTOR}"
+          export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          git add *.json
+          git commit -m "Updated Citation Data"
+          git push "${remote_repo}" HEAD:google-scholar-stats --force
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
