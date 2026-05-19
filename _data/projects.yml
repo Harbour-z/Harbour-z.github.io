@@ -1,0 +1,34 @@
+# =====================================================================
+# Projects shown on the homepage (rendered as glass-morphism cards).
+#
+# How to add a new project:
+#   - title : Display name (kept short — long names will be truncated).
+#   - icon  : Optional emoji shown before the title.
+#   - url   : Link target (usually the GitHub repo).
+#   - desc  : Short description, supports `en` and `cn` for bilingual pages.
+#             If `cn` is missing, the English version is used as fallback.
+#   - tags  : Optional tech-stack tags shown at the bottom of the card.
+# =====================================================================
+
+- title: "LingXi-Album · 智慧相册"
+  icon: "🖼️"
+  url: "https://github.com/Harbour-z/LingXi-Album"
+  desc:
+    en: "A multi-modal AI agent for smart photo albums — upload-to-index, chat-to-find. Combines semantic, metadata and hybrid retrieval over Qdrant, with a ReAct agent driving a chat-first UX."
+    cn: "一个「上传即索引、对话即找图」的多模态 AI Agent 智能相册：支持语义检索、元数据筛选与混合检索，基于 Qdrant 向量库与 ReAct Agent 实现对话式找图体验。"
+  tags:
+    - AI Agent
+    - Multimodal
+
+# ---------------------------------------------------------------------
+# 模板示例（保留供后续添加新项目时参考，需要时取消下面这一段的注释）
+# ---------------------------------------------------------------------
+# - title: "Coming Soon"
+#   icon: "🚧"
+#   url: "https://github.com/Harbour-z"
+#   desc:
+#     en: "More open-source projects on the way — focusing on AI Agents, LLM applications, and developer tooling. Stay tuned!"
+#     cn: "更多开源项目正在路上 —— 聚焦 AI Agent、大模型应用与开发者工具，敬请期待！"
+#   tags:
+#     - AI Agent
+#     - LLM

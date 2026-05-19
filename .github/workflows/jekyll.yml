@@ -39,13 +39,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3" # 支持最新依赖的 Ruby 版本
-          bundler-cache: false # 先不缓存，避免版本冲突
-
-      # 2.5. 更新 Bundler 并安装依赖
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install --jobs 4 --retry 3
+          bundler-cache: true # 缓存 gem，加快 CI 构建
 
       # 3. 配置 GitHub Pages
       - name: Setup Pages

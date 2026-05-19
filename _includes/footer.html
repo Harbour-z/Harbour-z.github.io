@@ -7,9 +7,19 @@
             <div class="footer-section">
                 <h3 class="footer-title">Quick Links</h3>
                 <ul class="footer-links">
+                    {% if site.footer_links %}
+                    {% for link in site.footer_links %}
+                    <li>
+                        <a href="{{ link.url }}" {% if link.external %} target="_blank" rel="noopener noreferrer" {%
+                            endif %}>{{ link.title }}</a>
+                    </li>
+                    {% endfor %}
+                    {% else %}
                     <li><a href="#about-me">About Me</a></li>
-                    <li><a href="https://zhidongzhang.top/Course_learning/" target="_blank">Learning Notes</a></li>
-                    <li><a href="mailto:zhangzhidong2004@stu.xjtu.edu.cn">Contact</a></li>
+                    {% if site.author.email %}
+                    <li><a href="mailto:{{ site.author.email }}">Contact</a></li>
+                    {% endif %}
+                    {% endif %}
                 </ul>
             </div>
 
@@ -42,7 +52,7 @@
 
             <!-- About Section -->
             <div class="footer-section footer-about">
-                <h3 class="footer-title">{{ site.author.name }}</h3>
+                <h3 class="footer-title">{{ site.author.name | raw }}</h3>
                 <p class="footer-bio">{{ site.author.bio }}</p>
                 <p class="footer-location">
                     <i class="fas fa-map-marker-alt"></i> {{ site.author.location }}
@@ -54,7 +64,7 @@
         <!-- Copyright Section -->
         <div class="page__footer-copyright">
             <p>
-                © {{ 'now' | date: "%Y" }} <strong>{{ site.author.name }}</strong> ·
+                © {{ 'now' | date: "%Y" }} <strong>{{ site.author.name | raw }}</strong> ·
                 Powered by <a href="https://jekyllrb.com" target="_blank">Jekyll</a> ·
                 Hosted on <a href="https://github.com/{{ site.repository }}" target="_blank">GitHub Pages</a>
             </p>

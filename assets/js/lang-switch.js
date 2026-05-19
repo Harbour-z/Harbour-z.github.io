@@ -1,6 +1,12 @@
 /**
  * Language Switch Functionality
- * Handles switching between English and Chinese versions
+ * Handles switching between English and Chinese versions.
+ *
+ * Path mapping rules:
+ *   /            <-> /cn/
+ *   /foo/bar/    <-> /cn/foo/bar/
+ *   /cn/foo/bar/ <-> /foo/bar/
+ * Falls back to the language home (`/` or `/cn/`) when no counterpart exists.
  */
 (function () {
     'use strict';
@@ -8,38 +14,27 @@
     const toggle = document.getElementById('lang-toggle');
     if (!toggle) return;
 
-    const currentPath = window.location.pathname;
-    const currentHash = window.location.hash;
+    const CN_PREFIX = '/cn/';
+    const path = window.location.pathname;
+    const hash = window.location.hash || '';
 
-    // Set initial state based on current page
-    // Chinese page has /cn/ in the path
-    const isChinesePage = currentPath.includes('/cn/');
+    const isChinesePage = path === '/cn' || path.startsWith(CN_PREFIX);
     toggle.checked = isChinesePage;
 
-    // Handle toggle change
+    function toEnglish(p) {
+        if (p === '/cn' || p === CN_PREFIX) return '/';
+        if (p.startsWith(CN_PREFIX)) return '/' + p.slice(CN_PREFIX.length);
+        return p || '/';
+    }
+
+    function toChinese(p) {
+        if (p === '/' || p === '' || p === '/index.html') return CN_PREFIX;
+        if (p.startsWith(CN_PREFIX) || p === '/cn') return p;
+        return CN_PREFIX + p.replace(/^\/+/, '');
+    }
+
     toggle.addEventListener('change', function () {
-        if (this.checked) {
-            // Switch to Chinese version
-            if (currentPath === '/' || currentPath === '/index.html') {
-                // Already on homepage, go to Chinese homepage
-                window.location.href = '/cn/';
-            } else if (currentPath.startsWith('/cn/')) {
-                // Already on Chinese page, stay here
-                window.location.href = '/cn/';
-            } else {
-                // On other English page, try to find corresponding Chinese page
-                // For now, default to Chinese homepage
-                window.location.href = '/cn/';
-            }
-        } else {
-            // Switch to English version
-            if (currentPath === '/cn/' || currentPath === '/cn/index.html') {
-                // On Chinese homepage, go to English homepage
-                window.location.href = '/';
-            } else {
-                // On other Chinese page, go to English homepage
-                window.location.href = '/';
-            }
-        }
+        const target = this.checked ? toChinese(path) : toEnglish(path);
+        window.location.href = target + hash;
     });
 })();

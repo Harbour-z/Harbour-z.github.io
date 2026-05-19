@@ -17,26 +17,34 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# Welcome!
+# About
 
-I am now a third year student at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), [School of Software Engineering](https://se.xjtu.edu.cn/), majoring in Software Engineering.
+I am Zhidong Zhang, now a third year student at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), [School of Software Engineering](https://se.xjtu.edu.cn/), majoring in Software Engineering.
 
 I am improving my programming and development skills.
 
-**Research Interests:** <span class="research-tag">Natural Language Processing</span> <span class="research-tag">AI Safety</span> <span class="research-tag">Backend Dev Tech</span>
+**Research Interests:** <span class="research-tag">AI Agent</span> <span class="research-tag">Artificial Intelligence</span> <span class="research-tag">AI Safety</span>
+
+I believe **AI agents** are the bridge that turns the powerful capabilities of large models into real-world impact — connecting reasoning, perception and action with concrete deployment scenarios.
 
 I am also an enthusiastic self-learner and interested in various fields of computer science. I have built [a website](https://zhidongzhang.top/Course_learning/) to keep my notes when learning.
 
 # 🔥 News
 
 <div class="highlight-box">
-📌 Hope there will be something exciting soon! Stay tuned...
+🚀 <strong>[2025.12]</strong> Joined 2012 Lab, Huawei as AI Engineer Intern.
 </div>
 
 <!-- - 
 *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  
 - -->
+# 🚀 Projects
+
+A selection of my open-source work. My focus is on **AI Agents** and developer tooling — turning model capabilities into useful products.
+
+{% include projects.html lang="en" %}
+
 # 💻 Internships
 
 <div class="timeline">
@@ -57,6 +65,12 @@ I am also an enthusiastic self-learner and interested in various fields of compu
 
 
 # 🎖 Honors and Awards
+
+<div class="award-item">
+<span class="award-icon">🥉</span>
+<span class="award-date">2026.5</span>
+<span class="award-content"><strong>National Third Prize</strong> - <a href="https://www.swcontest.com.cn/information?activeTab=notice&detailId=0e13605e37634778983b816273ac0a77" target="_blank" rel="noopener noreferrer">19th National Undergraduate Software Innovation Competition</a></span>
+</div>
 
 <div class="award-item">
 <span class="award-icon">🏆</span>
